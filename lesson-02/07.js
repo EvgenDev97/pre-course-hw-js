@@ -7,8 +7,7 @@ let passportMarried = {
     }
 };
 
-let passportMarriedCopy = JSON.parse(JSON.stringify(passportMarried));
-passportMarriedCopy.married = true
+let passportMarried2 = JSON.parse(JSON.stringify(passportMarried));
+passportMarried2.married = true
 console.log(passportMarried)
-console.log("///")
-console.log(passportMarriedCopy);
+console.log(passportMarried2);
